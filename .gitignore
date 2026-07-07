@@ -53,8 +53,8 @@ storage/
 chroma_db/
 *.db
 
-# Logs
-logs/
+# Logs (keep directory, ignore log files)
+logs/*.log
 *.log
 
 # Testing
