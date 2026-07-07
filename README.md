@@ -218,6 +218,21 @@ Phase 3
 
 ---
 
+# Development Setup
+
+Install the development dependencies and enable the Git hooks:
+
+```bash
+pip install -e ".[dev]"
+pre-commit install
+```
+
+Run all configured hooks manually:
+
+```bash
+pre-commit run --all-files
+```
+
 # Current Status
 
 🚧 In active development.
